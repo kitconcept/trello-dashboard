@@ -1,5 +1,16 @@
 [![Build Status](https://travis-ci.org/kitconcept/trello-dashboard.svg?branch=master)](https://travis-ci.org/kitconcept/trello-dashboard)
 
+# Added basic API functionality with Trello.
+
+You'll have to locally create a .enc.development.local file in the root of the project.
+Add the following lines to it:
+
+### REACT_APP_TRELLO_API=YOUR_API_KEY
+### REACT_APP_TRELLO_TOKEN=YOUR_API_TOKEN
+
+You have to obtain these values via the [Trello API]
+(https://trello.com/app-key).
+
 # Trello Dashboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
