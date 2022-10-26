@@ -2,7 +2,7 @@
 
 # Added basic API functionality with Trello.
 
-You'll have to locally create a .enc.development.local file in the root of the project.
+You'll have to locally create a .env.development.local file in the root of the project.
 Add the following lines to it:
 
 ### REACT_APP_TRELLO_API=YOUR_API_KEY
